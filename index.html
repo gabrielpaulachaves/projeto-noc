@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Checklist Noturno</title>
+</head>
+    <body>
+        <section id="plantonista">
+            <h1>Data e hora</h1>
+            <input type="date" name="" id="data">
+            <input type="time" name="" id="hora">
+            <h1>Nome</h1>
+            <input type="radio" name="nomesoc" id="Adriene" value="Adriene">
+            <label for="Adriene">Adriene</label>
+            <input type="radio" name="nomesoc" id="Amanda" value="Amanda">
+            <label for="Amanda">Amanda</label>
+            <input type="radio" name="nomesoc" id="Caroline" value="Caroline">
+            <label for="Caroline">Caroline</label>
+            <input type="radio" name="nomesoc" id="Charles" value="Charles">
+            <label for="Charles">Charles</label>
+            <input type="radio" name="nomesoc" id="Glaucio" value="Glaucio">
+            <label for="Glaucio">Gláucio</label>
+            <input type="radio" name="nomesoc" id="Luiz" value="Luiz">
+            <label for="Luiz">Luiz</label>
+            <input type="radio" name="nomesoc" id="Vanessa" value="Vanessa">
+            <label for="Vanessa">Vanessa</label>
+            <input type="radio" name="nomesoc" id="Mario" value="Mario">
+            <label for="Mario">Mário</label>
+            <input type="radio" name="nomesoc" id="Valeria" value="Valeria">
+            <label for="Valeria">Valéria</label>
+            <input type="radio" name="nomesoc" id="Savio" value="Savio">
+            <label for="Savio">Sávio</label>
+        </section>
+        <section id="sites">
+            <h1><a href="http://177.67.27.149:8080/d/zuI-F5Jnz/stp-monitor?orgId=1&refresh=1m" target="_blank" rel="external">STP</a></h1>
+            <h2>Status:</h2>
+            <div class="local-site">
+                <h3>LOCAL_SITE1_VIRTUAL_STP103_M3UA_ALARM (1103)</h3>
+                <input type="radio" name="statusSTP" id="statusSTPes" value="Estável">
+                <label for="statusSTPes">Up</label>
+                <input type="radio" name="statusSTP" id="statusSTPins" value="Instável">
+                <label for="statusSTPins">Down</label>
+                <input type="radio" name="statusSTP" id="statusSTPos" value="oscilação">
+                <label for="statusSTPos">Oscilações</label>
+            </div>
+            <div class="local-site">
+                <h3>LOCAL_SITE1_VIRTUAL_STP103_M3UA_ALARM (1103)</h3>
+                <input type="radio" name="statusSTP2" id="statusSTPes2" value="Estável">
+                <label for="statusSTPes2">Up</label>
+                <input type="radio" name="statusSTP2" id="statusSTPins2" value="Instável">
+                <label for="statusSTPins2">Down</label>
+                <input type="radio" name="statusSTP2" id="statusSTPos2" value="oscilação">
+                <label for="statusSTPos2">Oscilações</label>
+            </div>
+            <div class="local-site">
+                <h3>LOCAL_SITE1_VIRTUAL_STP104_M3UA_ALARM (1104)</h3>
+                <input type="radio" name="statusSTP3" id="statusSTPes3" value="Estável">
+                <label for="statusSTPes3">Up</label>
+                <input type="radio" name="statusSTP3" id="statusSTPins3" value="Instável">
+                <label for="statusSTPins3">Down</label>
+                <input type="radio" name="statusSTP3" id="statusSTPos3" value="oscilação">
+                <label for="statusSTPos3">Oscilações</label>
+            </div>  
+            <div class="local-site">
+                <h3>LOCAL_SITE1_VIRTUAL_STP104_M3UA_ALARM (1104)</h3>
+                <input type="radio" name="statusSTP4" id="statusSTPes4" value="Estável">
+                <label for="statusSTPes4">Up</label>
+                <input type="radio" name="statusSTP4" id="statusSTPins4" value="Instável">
+                <label for="statusSTPins4">Down</label>
+                <input type="radio" name="statusSTP4" id="statusSTPos4" value="oscilação">
+                <label for="statusSTPos4">Oscilações</label>
+            </div>
+            <div class="local-site">
+                <h3>VIVO_BARB_HOST_STP02_M2PA_ALARM (4526)</h3>
+                <input type="radio" name="statusSTP5" id="statusSTPes5" value="Estável">
+                <label for="statusSTPes5">Up</label>
+                <input type="radio" name="statusSTP5" id="statusSTPins5" value="Instável">
+                <label for="statusSTPins5">Down</label>
+                <input type="radio" name="statusSTP5" id="statusSTPos5" value="oscilação">
+                <label for="statusSTPos5">Oscilações</label>
+            </div>
+            <div class="local-site">
+                <h3>VIVO_BARB_HOST_STP02_M2PA_ALARM (4526)</h3>
+                <input type="radio" name="statusSTP6" id="statusSTPes6" value="Estável">
+                <label for="statusSTPes6">Up</label>
+                <input type="radio" name="statusSTP6" id="statusSTPins6" value="Instável">
+                <label for="statusSTPins6">Down</label>
+                <input type="radio" name="statusSTP6" id="statusSTPos6" value="oscilação">
+                <label for="statusSTPos6">Oscilações</label>
+            </div>
+            <div class="local-site">
+                <h3>VIVO_VVJB_HOST_STP01_M2PA_ALARM (159)</h3>
+                <input type="radio" name="statusSTP7" id="statusSTPes7" value="Estável">
+                <label for="statusSTPes7">Up</label>
+                <input type="radio" name="statusSTP7" id="statusSTPins7" value="Instável">
+                <label for="statusSTPins7">Down</label>
+                <input type="radio" name="statusSTP7" id="statusSTPos7" value="oscilação">
+                <label for="statusSTPos7">Oscilações</label>
+            </div>
+            <div class="local-site">
+                <h3>VIVO_VVJB_HOST_STP01_M2PA_ALARM (159)</h3>
+                <input type="radio" name="statusSTP8" id="statusSTPes8" value="Estável">
+                <label for="statusSTPes8">Up</label>
+                <input type="radio" name="statusSTP8" id="statusSTPins8" value="Instável">
+                <label for="statusSTPins8">Down</label>
+                <input type="radio" name="statusSTP8" id="statusSTPos8" value="oscilação">
+                <label for="statusSTPos8">Oscilações</label>
+            </div>  
+            <div class="local-site">
+                <h3>Adicionais:</h3>
+                <textarea name="" id="adsite" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>
+            </div>
+            
+        </section>
+        <section id="explore">
+            <h1><a href="http://177.67.27.149:8080/explore?left=%5B%22now-2h%22,%22now%22,%22HOST%22,%7B%22alias%22:%22PC%20$tag_Label%20$tag_host%22,%22dsType%22:%22influxdb%22,%22groupBy%22:%5B%7B%22params%22:%5B%221m%22%5D,%22type%22:%22time%22%7D,%7B%22params%22:%5B%22host%22%5D,%22type%22:%22tag%22%7D,%7B%22params%22:%5B%22Label%22%5D,%22type%22:%22tag%22%7D,%7B%22params%22:%5B%22null%22%5D,%22type%22:%22fill%22%7D%5D,%22measurement%22:%22StpLogs%22,%22orderByTime%22:%22ASC%22,%22policy%22:%22default%22,%22refId%22:%22A%22,%22resultFormat%22:%22time_series%22,%22select%22:%5B%5B%7B%22params%22:%5B%22Available%22%5D,%22type%22:%22field%22%7D,%7B%22params%22:%5B%5D,%22type%22:%22min%22%7D%5D%5D,%22tags%22:%5B%7B%22key%22:%22IsAlarm%22,%22operator%22:%22%3D%22,%22value%22:%22True%22%7D%5D,%22datasource%22:%7B%22type%22:%22influxdb%22,%22uid%22:%22000000002%22%7D%7D%5D&orgId=1" target="_blank" rel="external">EXPLORE</a></h1>
+            <div id="status-explore">
+                <h2>Status:</h2>
+                <input type="radio" name="statusEXPLORE" id="statusEXPLOREes" value="Estável">
+                <label for="statusEXPLOREes">Up</label>
+                <input type="radio" name="statusEXPLORE" id="statusEXPLOREin" value="Instável">
+                <label for="statusEXPLOREin">Down</label>
+                <input type="radio" name="statusEXPLORE" id="statusEXPLOREos" value="oscilação">
+                <label for="statusEXPLOREos">Oscilações</label>
+            </div>
+            <div>
+                <h3>Adicionais:</h3>
+                <textarea name="" id="adexplore" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>
+            </div>
+      </section>
+      <section id="PRTG">
+        <h1>PRTG</h1>
+        <h2><a href="https://177.67.24.76/sensor.htm?id=33113&tabid=2" target="_blank" rel="external">Dados</a></h2>
+        <h3>Status:</h3>
+         <input type="radio" name="dadosPRTG" id="dadosPRTGup" value="Estável">
+         <label for="dadosPRTGup">Up</label>
+         <input type="radio" name="dadosPRTG" id="dadosPRTGdown" value="Instável">
+         <label for="dadosPRTGdown">Down</label>
+         <input type="radio" name="dadosPRTG" id="dadosPRTGos" value="oscilação">
+         <label for="dadosPRTGos">Oscilações</label> 
+         <h3>Adicionais:</h3> 
+         <textarea name="" id="adado" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>
+        <h2><a href="https://177.67.24.76/sensor.htm?id=33112&tabid=2" target="_blank" rel="external">Voz/Sinalização</a></h2>
+        <h3>Status:</h3>
+         <input type="radio" name="vozPRTG" id="vozPRTGup" value="Estável">
+         <label for="vozPRTGup">Up</label>
+         <input type="radio" name="vozPRTG" id="vozPRTGdown" value="Instável">
+         <label for="vozPRTGdown">Down</label>
+         <input type="radio" name="vozPRTG" id="vozPRTGos" value="oscilação">
+         <label for="vozPRTGos">Oscilações</label> 
+         <h3>Adicionais:</h3> 
+         <textarea name="" id="advoz" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>        
+    </section>
+    <section id="ARS">
+        <h1><a href="http://177.67.27.149:8080/d/000000110/gtpc?orgId=1&refresh=1m&viewPanel=1
+        " target="_blank" rel="external">ARS/GTPc</a></h1>
+        <h2>Status:</h2>
+        <h3>ARS</h3>
+         <input type="radio" name="ARS" id="ARSup" value="Estável">
+         <label for="ARSup">Up</label>
+         <input type="radio" name="ARS" id="ARSdown" value="Instável">
+         <label for="ARSdown">Down</label>
+         <input type="radio" name="ARS" id="ARSos" value="oscilação">
+         <label for="ARSos">Oscilações</label> 
+         <h3>Adicionais:</h3> 
+         <textarea name="" id="adARS" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>  
+         <h3>GTPc</h3> 
+         <input type="radio" name="GTPC" id="GTPCup" value="Estável">
+         <label for="GTPCup">Up</label>
+         <input type="radio" name="GTPC" id="GTPCdown" value="Instável">
+         <label for="GTPCdown">Down</label>
+         <input type="radio" name="GTPC" id="GTPCos" value="oscilação">
+         <label for="GTPCos">Oscilações</label> 
+         <h3>Adicionais:</h3> 
+         <textarea name="" id="adGTPc" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea> 
+         <h3><a href="http://177.67.27.149:8080/d/Pfki75Jnz/ggsn-monitor?orgId=1&refresh=1m&from=now-24h&to=now&viewPanel=75" target="_blank" rel="external">GGSN(X)</a></h3> 
+         <input type="radio" name="GGSN" id="GGSNup" value="Estável">
+         <label for="GGSNup">Up</label>
+         <input type="radio" name="GGSN" id="GGSNdown" value="Instável">
+         <label for="GGSNdown">Down</label> 
+         <h3>Adicionais:</h3> 
+         <textarea name="" id="adGGSN" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>                  
+    </section>
+    <section id="radius">
+        <h1>Protocols /Radius Monitor V2 - Access Request/Accept / Reject (All - All)</h1>
+        <h2>Status:</h2>
+         <input type="radio" name="RAD" id="RADup" value="Estável">
+         <label for="RADup">Up</label>
+         <input type="radio" name="RAD" id="RADdown" value="Instável">
+         <label for="RADdown">Down</label>
+         <input type="radio" name="RAD" id="RADos" value="oscilação">
+         <label for="RADos">Oscilações</label> 
+         <h3>Adicionais:</h3> 
+        <textarea name="" id="adrad" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>        
+    </section>
+    <section id="ASR">
+        <h1>Radius ASR Accounting Virtueyes</h1>
+        <h2>Status:</h2>
+        <input type="radio" name="ASR" id="ASRup" value="Estável">
+         <label for="ASRup">Up</label>
+         <input type="radio" name="ASR" id="ASRdown" value="Instável">
+         <label for="ASRdown">Down</label>
+         <input type="radio" name="ASR" id="ASRos" value="oscilação">
+         <label for="ASRos">Oscilações</label> 
+         <h3>Adicionais:</h3> 
+        <textarea name="" id="adasr" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea> 
+    </section>
+    <section id="ASR2">
+        <h1>Radius ASR Accounting (All - acc_radiuslinksfield)</h1>
+         <h2>Status:</h2>
+         <input type="radio" name="ASR2" id="ASRup2" value="Estável">
+         <label for="ASRup2">Up</label>
+         <input type="radio" name="ASR2" id="ASRdown2" value="Instável">
+         <label for="ASRdown2">Down</label>
+         <input type="radio" name="ASR2" id="ASRos2" value="oscilação">
+         <label for="ASRos2">Oscilações</label> 
+         <h3>Adicionais:</h3> 
+        <textarea name="" id="adasr2" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>
+    </section>
+    <section id="JIRA">
+        <h1><a href="https://telecall.atlassian.net/jira/servicedesk/projects/SOC/queues/custom/1058" target="_blank" rel="external">Jira</a></h1>
+        <div>
+            <label for="ai">Aguardando informação:</label>
+            <input type="number" name="" id="ai" min="0">
+        </div>
+        <div>
+            <label for="cn">Casos novos:</label>
+            <input type="number" name="" id="cn" min="0">
+        </div>
+        <div>
+            <label for="ca">Casos em andamento:</label>
+            <input type="number" name="" id="ca" min="0">
+        </div>
+        <div>
+            <label for="cd">Casos Devolvidos:</label>
+            <input type="number" name="" id="cd" min="0">
+        </div>
+        <div>
+            <label for="ti">Tramitação interna:</label>
+            <input type="number" name="" id="ti" min="0">
+        </div>
+        <div>
+            <label for="ta">Tramitação externa:</label>
+            <input type="number" name="" id="te" min="0">
+        </div>
+        <div>
+            <label for="bas">BAs</label>
+            <input type="number" name="" id="bas" min="0">
+        </div>
+        <div>
+            <label for="inc">Incidentes</label>
+            <input type="number" name="" id="inc" min="0">
+        </div>
+    </section>
+    <section id="resumo">
+        <h1>Resumo Geral da rede</h1>
+           <h2>Situação Geral da rede</h2> 
+            <input type="radio" name="sg" id="sgup" value="Estável">
+            <label for="sgup">Up</label>
+            <input type="radio" name="sg" id="sgdown" value="Instável">
+            <label for="sgdown">Down</label>
+            <input type="radio" name="sg" id="sgRos" value="oscilação">
+            <label for="sgos">Oscilações</label> 
+        <h3>Adicionais:</h3> 
+        <textarea name="" id="adsg" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>
+    </section>
+    <section id="andamento">
+        <h1>INCIDENTES EM ANDAMENTO (Caso haja)</h1>
+        <h3>Elemento/Alarme:</h3>
+        <input type="text" maxlength="200" id="inc_elemento">
+        <h3>Descrição:</h3>
+        <input type="text" maxlength="200" id="inc_descricao">
+        <h3>Impacto:</h3>
+        <input type="text" maxlength="200" id="inc_impacto">
+        <h3>Data/Hora de início:</h3>
+        <input type="text" maxlength="200" id="inc_inicio">
+        <h3>Status atual:</h3>
+        <input type="text" maxlength="200" id="inc_status">
+        <h3>Ações realizadas:</h3>
+        <input type="text" maxlength="200" id="inc_acoes">
+        <h3>Próximos passos:</h3>
+        <input type="text" maxlength="200" id="inc_proximos">
+        <h3>Número do chamado:</h3>
+        <input type="text" maxlength="200" id="inc_chamado">
+        <h3>Fornecedor/Área:</h3>
+        <input type="text" maxlength="200" id="inc_fornecedor">
+    </section>
+    <section id="atividades">
+        <h1>ATIVIDADES PENDENTES / ACOMPANHAMENTO:</h1>
+        <textarea name="" id="atividades_p" placeholder="Não obrigatório - máximo de 243" maxlength="243"></textarea>
+    </section>
+    <section id="validar">
+        <button id="btnGerar">Validar</button>
+        <textarea name="" id="mostrar"></textarea>
+    </section>
+    </body>
+    <script src="script.js"></script>
+</html>

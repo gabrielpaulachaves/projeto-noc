@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(189, 189, 189);
+}
+section{
+    margin: auto;
+    padding: 10px;
+    width: 900px;
+    height: 600px;
+    background-color: white;
+}
+#plantonista{
+    height: 200px;
+}
+#sites{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+    
+}
+#explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 400px;
+}
+#PRTG{
+    height: 400px;
+}
+#ARS{
+    height: 500px;
+}
+#radius{
+    height: 300px;
+}
+#ASR{
+    height: 400px;
+}
+#ASR2{
+    height: 300px;
+}#JIRA{
+    height: 200px;
+}
+#resumo{
+    height: 300px;
+}
+#andamento{
+    height: 500px;
+}
+#atividades{
+    height: 200px;
+}
+#explore > h1{
+    margin-bottom: 30px;
+}
+#status-explore{
+    margin-bottom: 3px;
+}
+#adexplore{
+    width: 680px;
+    height: 200px;
+}
+.local-site{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+input[type="checkbox"]{
+   width: 20px;
+   height: 20px;
+   margin: 5px;
+}
+textarea{
+    width: 550px;
+    height: 48px;
+}
+#validar{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: 900px;
+}
+#btnGerar{
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(0, 163, 0);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.459);
+}
+#btnGerar:hover{
+    cursor: pointer;
+    
+}
+#mostrar{
+    width: 870px;
+    height: 815px;
+}
+
+
+
+
+
