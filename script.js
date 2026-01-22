@@ -224,114 +224,119 @@ botao.addEventListener("click", function(){
     let data = document.getElementById('data').value;
     console.log(data)
 
+    if(data){
+        const [ano, mes, dia] = data.split("-");
+        data = `${dia}/${mes}/${ano}`;
+    }
+
     let hora = document.getElementById('hora').value;
     console.log(hora)
 
 
 /******************************************************************************************************* */
     let textoemail = `
-                                        Checklist noturno
+    Checklist noturno
 
     data:${data}
     hora:${hora}
     Plantonista: ${nomeselecionado ? nomeselecionado.value : "Não mencionado"}
 
-                     STP 
+    STP
+
     Status:
     LOCAL_SITE1_VIRTUAL_STP103_M3UA_ALARM (1103):
-             ${statusSTPvalor};
+             ${statusSTPvalor}
     LOCAL_SITE1_VIRTUAL_STP103_M3UA_ALARM (1103):
-             ${statusSTP2valor};
+             ${statusSTP2valor}
     LOCAL_SITE1_VIRTUAL_STP104_M3UA_ALARM (1104):
-             ${statusSTP3valor};
+             ${statusSTP3valor}
     LOCAL_SITE1_VIRTUAL_STP104_M3UA_ALARM (1104):
-             ${statusSTP4valor};
+             ${statusSTP4valor}
     VIVO_BARB_HOST_STP02_M2PA_ALARM (4526):
-             ${statusSTP5valor};
+             ${statusSTP5valor}
     VIVO_BARB_HOST_STP02_M2PA_ALARM (4526):
-             ${statusSTP6valor};
+             ${statusSTP6valor}
     VIVO_VVJB_HOST_STP01_M2PA_ALARM (159):
-             ${statusSTP7valor};
+             ${statusSTP7valor}
     VIVO_VVJB_HOST_STP01_M2PA_ALARM (159):
-             ${statusSTP8valor};
+             ${statusSTP8valor}
+    observações:${adsite}
 
-    observações:${adsite || "Sem observações"}
-
-                     EXPLORE
+    EXPLORE 
 
     status:${statusEXPLOREvalor}
-    observações:${adexplore || "Sem observações"}
+    observações:${adexplore}
 
-                      PRTG
+    PRTG
     
     Dados
     status:${prtgdadovalor}
-    Observações:${adado || "Sem observações"}
+    Observações:${adado}
 
     Voz
     status:${prtgvozvalor}
-    Observações:${advoz || "Sem observações"}
+    Observações:${advoz}
 
-                 ARS/GTPc
+    ARS/GTPc
 
-        Status
+    Status
 
     ARS:${arsvalor}  
-    Observações:${adars || "Sem observações"}
+    Observações:${adars}
 
     GTPc:${gtpcvalor}
-    Observações:${adgtpc || "Sem observações"}
+    Observações:${adgtpc}
 
     GGSN(X):${ggsnvalor}
-    Observações:${adggsn || "Sem observações"}
+    Observações:${adggsn}
 
-            Protocols /Radius Monitor V2 - Access Request/Accept / Reject (All - All)
+    Protocols /Radius Monitor V2 - Access Request/Accept / Reject (All - All)
 
     Status:${radiusvalor}
-    Observações:${adrad || "Sem observações"}
+    Observações:${adrad}
 
     Radius ASR Accounting Virtueyes
     
     Status:${asrvalor}
-    Observações:${adasr || "Sem observações"}
+    Observações:${adasr}
 
     Radius ASR Accounting (All - acc_radiuslinksfield)
 
     status:${asr2valor}
-    Observações:${adasr2 || "Sem observações"}
+    Observações:${adasr2}
 
-             Jira
+    Jira
 
-Aguardando informação:${ai}
-Casos novos:${cn} 
-Casos em andamento:${ca}
-Casos Devolvidos:${cd} 
-Tramitação interna:${ti} 
-Tramitação externa:${te} 
-BAs:${bas}
-Incidentes:${inc}
+    Aguardando informação:${ai}
+    Casos novos:${cn} 
+    Casos em andamento:${ca}
+    Casos Devolvidos:${cd} 
+    Tramitação interna:${ti} 
+    Tramitação externa:${te} 
+    BAs:${bas}
+    Incidentes:${inc}
 
-            Resumo Geral da rede
+    Resumo Geral da rede
 
     Situação Geral da rede:
     ${sgeralvalor}
-    Observações:${adsgeral || "Sem observações"}
+    Observações:${adsgeral}
 
-          INCIDENTES EM ANDAMENTO (Caso haja)
+    INCIDENTES EM ANDAMENTO (Caso haja)
 
-Elemento/Alarme:${incelemento}
-Descrição:${incdescricao}
-Impacto:${incimpacto}
-Data/Hora de início:${incinicio}
-Status atual:${incstatus}
-Ações realizadas:${incacoes}
-Próximos passos:${incproximos}
-Número do chamado:${incchamado}
-Fornecedor/Área:${incfornecedor}
+    Elemento/Alarme:${incelemento}
+    Descrição:${incdescricao}
+    Impacto:${incimpacto}
+    Data/Hora de início:${incinicio}
+    Status atual:${incstatus}
+    Ações realizadas:${incacoes}
+    Próximos passos:${incproximos}
+    Número do chamado:${incchamado}
+    Fornecedor/Área:${incfornecedor}
 
-        ATIVIDADES PENDENTES / ACOMPANHAMENTO:
+    ATIVIDADES PENDENTES / ACOMPANHAMENTO:
 
-${atividades}        
+    ${atividades}        
 
    
 `
