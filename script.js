@@ -235,114 +235,128 @@ botao.addEventListener("click", function(){
 
 /******************************************************************************************************* */
     let textoemail = `
-    Checklist noturno
+Checklist noturno
 
-    data:${data}
-    hora:${hora}
-    Plantonista: ${nomeselecionado ? nomeselecionado.value : "Não mencionado"}
+data:${data}
+hora:${hora}
+Plantonista: ${nomeselecionado ? nomeselecionado.value : "Não mencionado"}
 
-    STP
+STP
 
-    Status:
-    LOCAL_SITE1_VIRTUAL_STP103_M3UA_ALARM (1103):
-             ${statusSTPvalor}
-    LOCAL_SITE1_VIRTUAL_STP103_M3UA_ALARM (1103):
-             ${statusSTP2valor}
-    LOCAL_SITE1_VIRTUAL_STP104_M3UA_ALARM (1104):
-             ${statusSTP3valor}
-    LOCAL_SITE1_VIRTUAL_STP104_M3UA_ALARM (1104):
-             ${statusSTP4valor}
-    VIVO_BARB_HOST_STP02_M2PA_ALARM (4526):
-             ${statusSTP5valor}
-    VIVO_BARB_HOST_STP02_M2PA_ALARM (4526):
-             ${statusSTP6valor}
-    VIVO_VVJB_HOST_STP01_M2PA_ALARM (159):
-             ${statusSTP7valor}
-    VIVO_VVJB_HOST_STP01_M2PA_ALARM (159):
-             ${statusSTP8valor}
-    observações:${adsite}
+Status:
+LOCAL_SITE1_VIRTUAL_STP103_M3UA_ALARM (1103):
+            ${statusSTPvalor}
+LOCAL_SITE1_VIRTUAL_STP103_M3UA_ALARM (1103):
+            ${statusSTP2valor}
+LOCAL_SITE1_VIRTUAL_STP104_M3UA_ALARM (1104):
+            ${statusSTP3valor}
+LOCAL_SITE1_VIRTUAL_STP104_M3UA_ALARM (1104):
+            ${statusSTP4valor}
+VIVO_BARB_HOST_STP02_M2PA_ALARM (4526):
+            ${statusSTP5valor}
+VIVO_BARB_HOST_STP02_M2PA_ALARM (4526):
+            ${statusSTP6valor}
+VIVO_VVJB_HOST_STP01_M2PA_ALARM (159):
+            ${statusSTP7valor}
+VIVO_VVJB_HOST_STP01_M2PA_ALARM (159):
+            ${statusSTP8valor}
+observações:${adsite}
 
-    EXPLORE 
+EXPLORE 
 
-    status:${statusEXPLOREvalor}
-    observações:${adexplore}
+status:${statusEXPLOREvalor}
+observações:${adexplore}
 
-    PRTG
+PRTG
     
-    Dados
-    status:${prtgdadovalor}
-    Observações:${adado}
+Dados
+status:${prtgdadovalor}
+Observações:${adado}
 
-    Voz
-    status:${prtgvozvalor}
-    Observações:${advoz}
+Voz
+status:${prtgvozvalor}
+Observações:${advoz}
 
-    ARS/GTPc
+ARS/GTPc
 
-    Status
+Status
 
-    ARS:${arsvalor}  
-    Observações:${adars}
+ARS:${arsvalor}  
+Observações:${adars}
 
-    GTPc:${gtpcvalor}
-    Observações:${adgtpc}
+GTPc:${gtpcvalor}
+Observações:${adgtpc}
 
-    GGSN(X):${ggsnvalor}
-    Observações:${adggsn}
+GGSN(X):${ggsnvalor}
+Observações:${adggsn}
 
-    Protocols /Radius Monitor V2 - Access Request/Accept / Reject (All - All)
+Protocols /Radius Monitor V2 - Access Request/Accept / Reject (All - All)
 
-    Status:${radiusvalor}
-    Observações:${adrad}
+Status:${radiusvalor}
+Observações:${adrad}
 
-    Radius ASR Accounting Virtueyes
+Radius ASR Accounting Virtueyes
     
-    Status:${asrvalor}
-    Observações:${adasr}
+Status:${asrvalor}
+Observações:${adasr}
 
-    Radius ASR Accounting (All - acc_radiuslinksfield)
+Radius ASR Accounting (All - acc_radiuslinksfield)
 
-    status:${asr2valor}
-    Observações:${adasr2}
+status:${asr2valor}
+Observações:${adasr2}
 
-    Jira
+Jira
 
-    Aguardando informação:${ai}
-    Casos novos:${cn} 
-    Casos em andamento:${ca}
-    Casos Devolvidos:${cd} 
-    Tramitação interna:${ti} 
-    Tramitação externa:${te} 
-    BAs:${bas}
-    Incidentes:${inc}
+Aguardando informação:${ai}
+Casos novos:${cn} 
+Casos em andamento:${ca}
+Casos Devolvidos:${cd} 
+Tramitação interna:${ti} 
+Tramitação externa:${te} 
+BAs:${bas}
+Incidentes:${inc}
 
-    Resumo Geral da rede
+Resumo Geral da rede
 
-    Situação Geral da rede:
-    ${sgeralvalor}
-    Observações:${adsgeral}
+Situação Geral da rede:
+${sgeralvalor}
+Observações:${adsgeral}
 
-    INCIDENTES EM ANDAMENTO (Caso haja)
+INCIDENTES EM ANDAMENTO (Caso haja)
 
-    Elemento/Alarme:${incelemento}
-    Descrição:${incdescricao}
-    Impacto:${incimpacto}
-    Data/Hora de início:${incinicio}
-    Status atual:${incstatus}
-    Ações realizadas:${incacoes}
-    Próximos passos:${incproximos}
-    Número do chamado:${incchamado}
-    Fornecedor/Área:${incfornecedor}
+Elemento/Alarme:${incelemento}
+Descrição:${incdescricao}
+Impacto:${incimpacto}
+Data/Hora de início:${incinicio}
+Status atual:${incstatus}
+Ações realizadas:${incacoes}
+Próximos passos:${incproximos}
+Número do chamado:${incchamado}
+Fornecedor/Área:${incfornecedor}
 
-    ATIVIDADES PENDENTES / ACOMPANHAMENTO:
+ATIVIDADES PENDENTES / ACOMPANHAMENTO:
 
-    ${atividades}        
-
-   
+${atividades}        
+  
 `
     const mostrar = document.getElementById('mostrar');
 mostrar.value = textoemail;
 })
 
+function copiar(){
+    let input = document.getElementById("mostrar")
+
+    let copiar = input.value
+
+    navigator.clipboard.writeText(copiar)  /*navigator = recurso que o navegador disponibiliza pro JS. clipboard = um dos mulhares de objetos dentro do navigator. writetext = método (função) que vai executar oq está dentro do () */
+
+    let btncopiar = document.getElementById('btncopiar')
+
+    btncopiar.innerHTML = "Copiado!"
+
+    setTimeout(function(){
+        btncopiar.innerHTML = "Copiar"},
+         2000)
+}
 
 

@@ -103,6 +103,15 @@ textarea{
     border-radius: 10px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.459);
 }
+#btncopiar{
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(0, 163, 0);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.459);
+}
 #btnGerar:hover{
     cursor: pointer;
     
